@@ -33,7 +33,6 @@ MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -140,3 +139,5 @@ MEDIA_URL = '/media/'
 # login 
 
 LOGIN_URL = 'rango:login'
+
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
